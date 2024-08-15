@@ -11,4 +11,4 @@ function loadComponent(componentPath, styleClassName, elementId) {
         })
 }
 
-loadComponent('components/header.html', 'header-login', 'header-login');
+loadComponent('components/header/header.html', 'header-login', 'header-login');
