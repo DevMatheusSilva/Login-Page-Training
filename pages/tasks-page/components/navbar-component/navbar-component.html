@@ -1,0 +1,75 @@
+<style>
+   .tasks-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 10px 0px 10px;
+      background-color: white;
+   }
+
+   .tasks-menu {
+      width: 100%;
+   }
+
+   .tasks-menu ul {
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+   }
+   .btn-icon{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      background-size: contain;
+
+      width: 15px;
+      height: 15px;
+      border: none;
+
+      margin: 5px;
+
+      cursor: pointer;
+   }
+
+   .logout{
+      background-image: url(../../assets/icons/back-navbar-icon.svg);
+   }
+
+   .settings{
+      background-image: url(../../assets/icons/Config_profile.svg);
+   }
+
+   .logout:hover{
+      &::before{
+         content: "Logout";
+         position: absolute;
+         top: 40px;
+         left: 10px;
+         background-color: black;
+         color: white;
+         padding: 5px;
+         border-radius: 5px;
+      }
+   }
+
+   .settings:hover{
+      &::before{
+         content: "Settings";
+         position: absolute;
+         right: 10px;
+         top: 40px;
+         background-color: black;
+         color: white;
+         padding: 5px;
+         border-radius: 5px;
+      }
+   }
+</style>
+<header id="tasks-header" class="tasks-header">
+   <navbar class="tasks-menu">
+      <ul>
+         <li><button class="btn-icon logout"></button></li>
+         <li><button class="btn-icon settings"></button></li>
+      </ul>
+   </navbar>
+</header>
