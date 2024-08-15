@@ -1,4 +1,10 @@
 @import url('../components/header/header.css');
+@import url('../components/form/form.css');
+
+html, body {
+    width: 100%;
+    font-family: 'Itim', cursive;
+}
 
 * {
     margin: 0;

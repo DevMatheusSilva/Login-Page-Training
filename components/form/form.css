@@ -1,0 +1,91 @@
+@media (max-width: 376px) {
+    .form {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .login-form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    /* FORM-EMAIL */
+    .login-form .form-email {
+        display: flex;
+        font-size: 0.95rem;
+        flex-direction: column;
+        margin: 0 30px 0 30px;
+    }
+
+    .login-form .form-email > input{
+        font-family: 'Itim', cursive;
+        margin: 5px 0 10px 0;
+        width: 100%;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    /* FORM-PASSWORD */
+    .login-form .form-password {
+        display: flex;
+        font-size: 0.95rem;
+        flex-direction: column;
+        margin: 0 30px 0 30px;
+    }
+
+    .login-form .form-password > a {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        color: #51D6FF;
+        text-decoration: none;
+        font-size: 0.8rem;
+    }
+
+    .login-form .form-password .input-password {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .login-form .form-password .input-password > input{
+        margin: 5px 0 10px 0;
+        width: 100%;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .login-form .form-password .input-password > img {
+        width: 16.5px;
+        height: 14.67px;
+    }
+
+    /* FORM-BUTTON */
+    .login-form .form-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    /* FORM-BUTTON */
+    .login-form .form-button > button {
+        font-family: 'Itim', cursive;
+        font-size: 1.3rem;
+        background-color: #A6DBBC;
+        color: #009B42;
+        margin-top: 20px;
+        width: 75%;
+        padding: 10px;
+        border-radius: 30px;
+        border: 1px solid black;
+    }
+}

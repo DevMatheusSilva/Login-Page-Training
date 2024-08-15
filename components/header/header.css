@@ -1,8 +1,17 @@
-@media screen and (max-width: 375px) {
+@media (max-width: 376px) {
     .header-login {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin: 50px;
+        align-items: center;
     }
-}
+
+    .header-login > img:nth-child(1) {
+        width: 71%;
+        height: 33%;
+    }
+    
+    .header-login > img:nth-child(2) {
+        width: 57%;
+        height: 6.50%;
+    }
+} 
