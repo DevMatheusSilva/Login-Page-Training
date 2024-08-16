@@ -1,20 +1,40 @@
-@media (max-width: 376px) {
-    .form {
-        margin-top: 30px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+.login-form .form-password > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #51D6FF;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
 
+.login-form .form-button > button {
+    font-family: 'Itim', cursive;
+    font-size: 1.3rem;
+    background-color: #A6DBBC;
+    color: #009B42;
+    width: 50%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.login-form .form-email > input , .form-password > input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+@media (max-width: 426px) {
     .login-form {
         width: 100%;
+        margin-top: 30px;
         gap: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
     
-    /* FORM-EMAIL AND FORM-PASSWORD*/
     .login-form .form-email, .form-password {
         display: flex;
         font-size: 0.95rem;
@@ -22,23 +42,6 @@
         margin: 0 30px 0 30px;
     }
 
-    .login-form .form-email > input , .form-password > input {
-        width: 100%;
-        border: 1px solid #ccc;
-        padding: 10px;
-        border-radius: 8px;
-    }
-
-    .login-form .form-password > a {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        color: #51D6FF;
-        text-decoration: none;
-        font-size: 0.8rem;
-    }
-
-    /* FORM-BUTTON */
     .login-form .form-button {
         display: flex;
         flex-direction: column;
@@ -46,16 +49,33 @@
         align-items: center;
         margin-top: 10px;
     }
+}
 
-    /* FORM-BUTTON */
-    .login-form .form-button > button {
-        font-family: 'Itim', cursive;
-        font-size: 1.3rem;
-        background-color: #A6DBBC;
-        color: #009B42;
-        width: 75%;
-        padding: 10px;
-        border-radius: 30px;
-        border: 1px solid black;
+@media screen and (min-width: 426px) {
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        gap: 2.3rem;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .login-form .form-email, .form-password {
+        display: flex;
+        font-size: 1.4rem;
+        flex-direction: column;
+        margin: 0 100px 0 100px;
+    }
+
+    .login-form .form-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+    
+    .login-form .form-password > a {
+        font-size: 1rem;
     }
 }

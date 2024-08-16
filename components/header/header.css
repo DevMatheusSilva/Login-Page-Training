@@ -1,18 +1,37 @@
-@media (max-width: 376px) {
+@media (max-width: 426px) {
     .header-login {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 5%;
+        margin-top: 3%;
     }
 
     .header-login > img:nth-child(1) {
-        width: 71%;
-        height: 33%;
+        width: 60%;
+        height: 10%;
     }
     
     .header-login > img:nth-child(2) {
-        width: 57%;
+        width: 50%;
+        height: 6.50%;
+    }
+}
+
+@media screen and (min-width: 426px) {
+    .header-login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .header-login > img:nth-child(1) {
+        width: 30%;
+        height: 10%;
+    }   
+    
+    .header-login > img:nth-child(2) {
+        width: 20%;
         height: 6.50%;
     }
 }

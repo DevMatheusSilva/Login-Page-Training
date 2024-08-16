@@ -1,13 +1,24 @@
-@media (max-width: 376px) {
+.logon > p > a {
+    text-decoration: none;
+    color: #51D6FF;
+}
+
+@media (max-width: 426px) {
     .logon {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 5%;
     }
+}
 
-    .logon > p > a {
-        text-decoration: none;
-        color: #51D6FF;
+@media screen and (min-width: 426px) {
+    .logon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin: 3% 0 3% 0;
     }
 }
