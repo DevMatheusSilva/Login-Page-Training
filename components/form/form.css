@@ -8,38 +8,38 @@
 }
 
 .login-form .form-button > button {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
     font-family: 'Itim', cursive;
     font-size: 1.3rem;
     background-color: #A6DBBC;
     color: #009B42;
-    width: 50%;
-    padding: 10px;
-    border-radius: 30px;
-    border: 1px solid black;
 }
 
 .login-form .form-email > input , .form-password > input {
     width: 100%;
-    border: 1px solid #ccc;
     padding: 10px;
+    border: 1px solid #ccc;
     border-radius: 8px;
 }
 
 @media (max-width: 426px) {
     .login-form {
-        width: 100%;
-        margin-top: 30px;
-        gap: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 100%;
+        margin-top: 30px;
+        gap: 1rem;
     }
     
     .login-form .form-email, .form-password {
         display: flex;
-        font-size: 0.95rem;
         flex-direction: column;
         margin: 0 30px 0 30px;
+        font-size: 0.95rem;
     }
 
     .login-form .form-button {
@@ -62,8 +62,8 @@
 
     .login-form .form-email, .form-password {
         display: flex;
-        font-size: 1.4rem;
         flex-direction: column;
+        font-size: 1.4rem;
         margin: 0 100px 0 100px;
     }
 
@@ -77,5 +77,20 @@
     
     .login-form .form-password > a {
         font-size: 1rem;
+    }
+}
+
+@media (min-width: 427px) and (max-width: 769px) {
+    .login-form .form-email, .form-password {
+        margin: 0 200px 0 200px;
+        font-size: 1rem;
+    }
+
+    .login-form .form-password > a {
+        font-size: 0.8rem;
+    }
+    
+    .login-form .form-button > button {
+        width: 50%;
     }
 }
