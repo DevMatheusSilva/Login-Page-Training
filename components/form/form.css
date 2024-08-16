@@ -8,33 +8,25 @@
 
     .login-form {
         width: 100%;
+        gap: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
     
-    /* FORM-EMAIL */
-    .login-form .form-email {
+    /* FORM-EMAIL AND FORM-PASSWORD*/
+    .login-form .form-email, .form-password {
         display: flex;
         font-size: 0.95rem;
         flex-direction: column;
         margin: 0 30px 0 30px;
     }
 
-    .login-form .form-email > input{
-        margin: 5px 0 10px 0;
+    .login-form .form-email > input , .form-password > input {
         width: 100%;
         border: 1px solid #ccc;
         padding: 10px;
         border-radius: 8px;
-    }
-
-    /* FORM-PASSWORD */
-    .login-form .form-password {
-        display: flex;
-        font-size: 0.95rem;
-        flex-direction: column;
-        margin: 0 30px 0 30px;
     }
 
     .login-form .form-password > a {
@@ -46,33 +38,13 @@
         font-size: 0.8rem;
     }
 
-    .login-form .form-password .input-password {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .login-form .form-password .input-password > input{
-        margin: 5px 0 10px 0;
-        width: 100%;
-        border: 1px solid #ccc;
-        padding: 10px;
-        border-radius: 8px;
-    }
-
-    .login-form .form-password .input-password > img {
-        width: 16.5px;
-        height: 14.67px;
-    }
-
     /* FORM-BUTTON */
     .login-form .form-button {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 10px;
+        margin-top: 10px;
     }
 
     /* FORM-BUTTON */
@@ -81,7 +53,6 @@
         font-size: 1.3rem;
         background-color: #A6DBBC;
         color: #009B42;
-        margin-top: 20px;
         width: 75%;
         padding: 10px;
         border-radius: 30px;
