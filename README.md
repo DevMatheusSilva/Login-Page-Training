@@ -24,3 +24,10 @@ O usuário pode realizar o login por meio de um input de email e senha que serã
 
 ## Obs. 👀
 Este é um projeto de treino para o estágio de desenvolvimento, para tanto, não representa uma aplicação completa ou parte de alguma e não devem ser levadas a sério quaisquer informações apresentadas aqui como verdadeiras e/ou confiáveis.
+
+## Contato 📳
+
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para abrir uma issue ou entrar em contato diretamente:
+
+- [Email](mailto:matheusmello225@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/matheus-silva-ggn1089/)
