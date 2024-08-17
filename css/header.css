@@ -1,8 +1,0 @@
-@media screen and (max-width: 375px) {
-    .header-login {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 50px;
-    }
-}
