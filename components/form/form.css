@@ -1,4 +1,13 @@
-.login-form .form-password > a {
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    gap: 1rem;
+}
+
+.form-password > a {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -7,8 +16,30 @@
     font-size: 0.8rem;
 }
 
-.login-form .form-button > button {
+.form-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form-email, .form-password {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px 0 30px;
+    font-size: 0.95rem;
+    width: 80%;
+    max-width: 600px;
+}
+
+.form-button {
+    width: 100%;
+}
+
+.form-button > button {
     width: 50%;
+    max-width: 200px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 30px;
@@ -18,79 +49,13 @@
     color: #009B42;
 }
 
-.login-form .form-email > input , .form-password > input {
+.form-email > input , .form-password > input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
 }
 
-@media (max-width: 426px) {
-    .login-form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        margin-top: 30px;
-        gap: 1rem;
-    }
-    
-    .login-form .form-email, .form-password {
-        display: flex;
-        flex-direction: column;
-        margin: 0 30px 0 30px;
-        font-size: 0.95rem;
-    }
-
-    .login-form .form-button {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-    }
-}
-
-@media screen and (min-width: 426px) {
-    .login-form {
-        display: flex;
-        flex-direction: column;
-        gap: 2.3rem;
-        width: 100%;
-        margin-top: 5%;
-    }
-
-    .login-form .form-email, .form-password {
-        display: flex;
-        flex-direction: column;
-        font-size: 1.4rem;
-        margin: 0 100px 0 100px;
-    }
-
-    .login-form .form-button {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 5px;
-    }
-    
-    .login-form .form-password > a {
-        font-size: 1rem;
-    }
-}
-
-@media (min-width: 427px) and (max-width: 769px) {
-    .login-form .form-email, .form-password {
-        margin: 0 200px 0 200px;
-        font-size: 1rem;
-    }
-
-    .login-form .form-password > a {
-        font-size: 0.8rem;
-    }
-    
-    .login-form .form-button > button {
-        width: 50%;
-    }
+.form-password > a {
+    font-size: 0.9rem;
 }
