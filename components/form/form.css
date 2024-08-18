@@ -33,6 +33,15 @@
     max-width: 600px;
 }
 
+.form-error {
+    color: red;
+    font-size: 1rem;
+    background-color: rgb(255, 219, 219);
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid red;
+}
+
 .form-button {
     width: 100%;
 }
@@ -49,7 +58,7 @@
     color: #009B42;
 }
 
-.form-email > input , .form-password > input {
+.input-email , .input-password {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -59,3 +68,4 @@
 .form-password > a {
     font-size: 0.9rem;
 }
+
