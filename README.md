@@ -4,6 +4,8 @@ Interface Figma de página de login implementada em HTML, CSS e JS para treino d
 ## Descrição 📝
 Este projeto esta sendo implementado para treinar a funcionalidade básica de uma página feita em HTML e CSS, usando alguns conceitos retirados do framework React (como os componentes por exemplo). Para carregar os componentes (HTML e seus respectivos estilos CSS ) está sendo utilizado JS com a fetch API para buscar os componentes, aplicar os estilos e devolver um componente estilizado à página principal.
 
+![image](https://github.com/user-attachments/assets/581c15c9-c20a-44cf-b359-3079f92d900c)
+
 ## Estrutura do projeto 🛠️
 
 ```
